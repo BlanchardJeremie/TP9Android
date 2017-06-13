@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TP9Android</string>
+    <string name="messagePause">Pause</string>
+    <string name="messageResume">Resume</string>
+    <string name="messageStop">Stop</string>
+    <string name="messageDestroy">Destroy</string>
+    <string name="messageRestoreInstanceState">RestoreInstanceState</string>
+    <string name="messageSaveInstanceState">SaveInstanceState</string>
 </resources>
