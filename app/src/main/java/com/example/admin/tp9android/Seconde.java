@@ -57,11 +57,14 @@ public class Seconde extends AppCompatActivity {
     }
 
     @Override
-    protected void onSaveInstanceState(Bundle savedInstanceState){
-        super.onSaveInstanceState(savedInstanceState);
+    protected void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
         notify("RestoreInstanceState");
         Toast toast = Toast.makeText(this,R.string.messageSaveInstanceState,Toast.LENGTH_LONG);
         toast.show();
+
+
+
     }
 
     public void cliclpage1(View view) {
